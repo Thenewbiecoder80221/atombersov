@@ -1,0 +1,54 @@
+=== Atomberg Smart Fan – SoV Analysis ===
+[Google] Calling Serper API...
+[Google] Collected 9 results from Serper
+[YouTube] Fetching search results...
+[YouTube] Fetching statistics...
+[YouTube] Collected 30 results
+[Data] Saved raw results to data/raw/all_results.csv
+[Sentiment] Using transformers pipeline...
+Device set to use cpu
+[Data] Saved processed results with sentiment to data/processed/results_with_sentiment.csv
+[Data] Saved SoV metrics to data/processed/sov_metrics.csv
+
+=== Final SoV Metrics ===
+   brand  mentions  engagement  positive_mentions  sov_mentions_pct  sov_engagement_pct  share_positive_voice_pct
+atomberg         1     1365616                  0         33.333333           85.411642                       0.0
+ havells         1      103796                  1         33.333333            6.491859                     100.0
+  orient         1      129452                  0         33.333333            8.096499                       0.0
+crompton         0           0                  0          0.000000            0.000000                       0.0
+   bajaj         0           0                  0          0.000000            0.000000                       0.0
+    usha         0           0                  0          0.000000            0.000000                       0.0
+  === Atomberg Smart Fan – SoV Analysis ===
+[Google] Calling Serper API...
+[Google] Collected 9 results from Serper
+[YouTube] Fetching search results...
+[YouTube] Fetching statistics...
+[YouTube] Collected 30 results
+[Data] Saved raw results to data/raw/all_results.csv
+[Sentiment] Using transformers pipeline...
+/usr/local/lib/python3.12/dist-packages/huggingface_hub/utils/_auth.py:94: UserWarning: 
+The secret `HF_TOKEN` does not exist in your Colab secrets.
+To authenticate with the Hugging Face Hub, create a token in your settings tab (https://huggingface.co/settings/tokens), set it as secret in your Google Colab and restart your session.
+You will be able to reuse this secret in all of your notebooks.
+Please note that authentication is recommended but still optional to access public models or datasets.
+  warnings.warn(
+config.json: 100%
+ 629/629 [00:00<00:00, 55.3kB/s]
+model.safetensors: 100%
+ 268M/268M [00:02<00:00, 165MB/s]
+tokenizer_config.json: 100%
+ 48.0/48.0 [00:00<00:00, 3.96kB/s]
+vocab.txt: 100%
+ 232k/232k [00:00<00:00, 6.06MB/s]
+Device set to use cpu
+[Data] Saved processed results with sentiment to data/processed/results_with_sentiment.csv
+[Data] Saved SoV metrics to data/processed/sov_metrics.csv
+
+=== Final SoV Metrics ===
+   brand  mentions  engagement  positive_mentions  sov_mentions_pct  sov_engagement_pct  share_positive_voice_pct
+atomberg         5     5172573                  1             100.0               100.0                     100.0
+ havells         0           0                  0               0.0                 0.0                       0.0
+  orient         0           0                  0               0.0                 0.0                       0.0
+crompton         0           0                  0               0.0                 0.0                       0.0
+   bajaj         0           0                  0               0.0                 0.0                       0.0
+    usha         0           0                  0               0.0                 0.0                       0.0
